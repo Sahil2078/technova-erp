@@ -1,0 +1,27 @@
+# IntelliJ / IDE
+.idea/
+.vscode/
+*.iml
+
+# Backend build
+**/target/
+**/build/
+*.log
+
+# Frontend
+**/node_modules/
+**/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+**/application-dev.properties
+**/application-dev.yml
+**/application-local.properties
+**/application-local.yml
+
+# Local tools
+.postman/
+/postman/
